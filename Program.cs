@@ -1,9 +1,11 @@
-using System;
+﻿using System;
 					
 public class Program
 {
 	public static void Main()
 	{
-		int a = 19;
+		Console.WriteLine("Enter your height in inches: ");
+		string userInput = Console.ReadLine();
+		int number = int.Parse(userInput);
+		return number;
 	}
-}
