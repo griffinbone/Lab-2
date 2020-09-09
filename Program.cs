@@ -6,7 +6,11 @@ namespace lab2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int num1 = GetNumber();
+            int num2 = GetNumber();
+
+            DisplaySum(num1, num2)
+            Console.WriteLine("This is a test");
         }
     }
 }
