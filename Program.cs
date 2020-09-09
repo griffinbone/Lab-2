@@ -17,6 +17,9 @@ namespace lab2;
 			int DisplayProduct; 
 			int x;
 			int y;
+			int z;
+			const double CON_FAC = .413
+			const double FEET_IN_MILE = 5280
 		}
 
 		static int GetANumber(); {
@@ -41,7 +44,7 @@ namespace lab2;
 		{
 
 		static int DisplayProduct (int num1);
-			Console.WriteLine("The stride length in inches is: " + (num1 * 0.413 = x));
+			Console.WriteLine("The stride length in inches is: " + (num1 * CON_FAC = x));
 		}
 
 		{
@@ -57,7 +60,7 @@ namespace lab2;
 		}
 		{
 		static int TotalWalked (int z);
-			Console.WriteLine("The total amount of miles walked is: " + (z / 5280);
+			Console.WriteLine("The total amount of miles walked is: " + (z / FEET_IN_MILE);
 
 		}
 
