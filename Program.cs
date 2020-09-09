@@ -1,11 +1,22 @@
-﻿using System;
+using System;
+
+namespace lab2
 					
-public class Program
+ class Program
 {
-	public static void Main()
+	static void Main(string []args)
 	{
-		Console.WriteLine("Enter your height in inches: ");
-		string userInput = Console.ReadLine();
-		int number = int.Parse(userInput);
-		return number;
+		userInput = 5;
+		GetANumber();
+		GetANumber();
+		DisplaySum();
 	}
+
+static int GetANumber() {
+
+	int userInput = 0;
+	Console.WriteLine("Please enter a number ");
+	userInput=int.Parse(Console.ReadLine());
+
+	return userInput;
+}
