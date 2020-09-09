@@ -1,12 +1,9 @@
 ﻿using System;
-
-namespace lab2
+					
+public class Program
 {
-    class Program
-    {
-        static void lab2(string[] args)
-        {
-            Console.WriteLine(4 + 3 * 2)
-        }
-    }
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+	}
 }
