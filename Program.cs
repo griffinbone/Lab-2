@@ -23,23 +23,19 @@ namespace lab2
 			// Console.WriteLine("Please enter a number");
 			// return int.Parse(Console.ReadLine());
 
-		}}
+		}
 
 		static void DisplaySum(int num1, int num2) {
 			Console.WriteLine("The sum is: " + (num1+num2));
 
-		}}
+		}
 
 
 
 	}
+
 }
 }
-}
-}
-}
-}
-}
-}
+
 
 		
