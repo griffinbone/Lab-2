@@ -6,17 +6,11 @@ namespace lab2
 	{
 	static void Main(string []args)
 		{
-		userInput = 5;
-		GetANumber();
-		GetANumber();
-		DisplaySum();
-		}
-
-		static int GetANumber() {
-
-			int userInput = 0;
-			Console.WriteLine("Please enter a number ");
-			userInput=Console.ReadLine();
+			GetANumber();
+			GetANumber();
+			DisplaySum();
 		}
 	}
 }
+
+		
