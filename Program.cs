@@ -7,9 +7,10 @@ namespace lab2
 	static void Main(string []args)
 		{
 
-			int num1 = GetANumber();
-			int num2 = GetANumber();
-			DisplaySum(num1, num2);
+			int multiply;
+			int userInput;
+			int divide;
+			int StrideLength;
 		}
 
 		static int GetANumber() {
@@ -20,13 +21,13 @@ namespace lab2
 
 			return userInput;
 
-			// Console.WriteLine("Please enter a number");
-			// return int.Parse(Console.ReadLine());
+			Console.WriteLine("Please enter a number");
+			return int.Parse(Console.ReadLine());
 
 		}
 
-		static void DisplaySum(int num1, int num2) {
-			Console.WriteLine("The sum is: " + (num1+num2));
+		static void DisplayProduct (int num1) 
+			Console.WriteLine("The stride length is: " + (num1 * 0.413));
 
 		}
 
