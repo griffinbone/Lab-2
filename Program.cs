@@ -6,7 +6,7 @@ namespace lab2
 	{
 	static void Main(string []args)
 		{
-			
+
 			int num1 = GetANumber();
 			int num2 = GetANumber();
 			DisplaySum(num1, num2);
@@ -23,12 +23,12 @@ namespace lab2
 			// Console.WriteLine("Please enter a number");
 			// return int.Parse(Console.ReadLine());
 
-		}
+		}}
 
 		static void DisplaySum(int num1, int num2) {
 			Console.WriteLine("The sum is: " + (num1+num2));
 
-		}
+		}}
 
 
 
