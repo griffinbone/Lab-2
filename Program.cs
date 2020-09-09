@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 					
 public class Program
 {
@@ -9,3 +9,4 @@ public class Program
 		int number = int.Parse(userInput);
 		return number;
 	}
+}
