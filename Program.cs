@@ -19,4 +19,4 @@ static int GetANumber() {
 	userInput=int.Parse(Console.ReadLine());
 
 	return userInput;
-}
+}}
