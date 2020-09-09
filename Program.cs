@@ -33,6 +33,6 @@ namespace lab2
 
 
 	}
-}
+}}
 
 		
